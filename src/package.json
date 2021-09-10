@@ -1,0 +1,33 @@
+{
+  "name": "express-ws",
+  "version": "1.0.0",
+  "description": "tdd with express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezzad/Hoaxify.git"
+  },
+  "keywords": [
+    "sample",
+    "node.js",
+    "webservice",
+    "hoaxify"
+  ],
+  "author": "bezzad",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bezzad/Hoaxify/issues"
+  },
+  "homepage": "https://github.com/bezzad/Hoaxify#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1",
+    "supertest": "^6.1.6"
+  }
+}
